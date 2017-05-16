@@ -1,0 +1,11 @@
+{
+  "dev": {
+    "api_handler_name": "webhook-to-s3-dev",
+    "api_handler_arn": "arn:aws:lambda:us-east-1:209556801791:function:webhook-to-s3-dev",
+    "rest_api_id": "w4765q8x1j",
+    "region": "us-east-1",
+    "api_gateway_stage": "dev",
+    "backend": "api",
+    "chalice_version": "0.8.0"
+  }
+}
