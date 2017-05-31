@@ -1,0 +1,11 @@
+{
+    "fileLocations": [
+              {"URIPrefixes": ["s3://librato-events-staging/billing/"]}
+     ],
+     "globalUploadSettings": {
+     "format": "CSV",
+     "delimiter": ",",
+     "textqualifier": "'",
+     "containsHeader": "false"
+    }
+}
