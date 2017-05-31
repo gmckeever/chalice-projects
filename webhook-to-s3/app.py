@@ -40,7 +40,7 @@ def chargify():
     json_str=str(json_dict)
 
     date = parse_time(str(datetime.now()))
-    filename = data['id'][0] + '.json'
+    filename = data['id'][0] + '.csv'
     file_path = 'billing/year={year}/month={month}/date={day}/'.format(**date) + filename
 
     s3.put_object(
