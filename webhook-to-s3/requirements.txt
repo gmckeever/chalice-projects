@@ -1,2 +1,3 @@
 boto3==1.4.4
 urllib5==5.0.0
+flatten_json=0.1.5
